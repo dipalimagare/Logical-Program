@@ -8,8 +8,8 @@ public class StopWatch {
 		Scanner sc = new Scanner(System.in);
         System.out.print("Type 'start' to start the stopwatch: ");
         String startStr = sc.next().toLowerCase();
-        long start = System.currentTimeMillis();
         sc.close();
+        long start = System.currentTimeMillis();
         if (startStr.equals("start")) {
             System.out.print("Type 'stop' to stop the stopwatch: ");
             String stopStr = sc.next().toLowerCase();

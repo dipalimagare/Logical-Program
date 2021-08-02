@@ -12,6 +12,7 @@ public class MonthlyPayment {
         int year = s.nextInt();
         System.out.print("Enter a rate of interest: ");
         float ROI = s.nextFloat();
+        s.close();
 
         monthlyPayment(principleAmt, year, ROI);
     }

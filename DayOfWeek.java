@@ -13,6 +13,7 @@ public class DayOfWeek {
         int month = s.nextInt();
         System.out.print("Enter a year (yyyy): ");
         int year = s.nextInt();
+        s.close();
 
         int temp = year;
 
@@ -70,8 +71,6 @@ public class DayOfWeek {
         d0 = (d+x+31*m0/12) % 7;        // stores the day: "Sunday" as 0, "Monday" as 1, ... and so on
 
         return d0;
-
-
 	}
 
 }
